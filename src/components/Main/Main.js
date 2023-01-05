@@ -7,6 +7,9 @@ const Main = () => {
             <section className='hola'>
                 <h2>Hola queridos honguitos</h2>
             </section>
+            <section className='hola'>
+                <h2>Prueba de Branch de Jorge</h2>
+            </section>
         </main>
     );
 };
