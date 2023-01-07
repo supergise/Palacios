@@ -1,0 +1,105 @@
+
+.section-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.div-group-home {
+    position: relative;
+    background-color: inherit;
+}
+
+/*******************************/
+/*         ZOOM !!!
+/*******************************/
+
+.zoom-img-home .img-home {
+    transition: all 3s;
+}
+
+.img-home:hover {
+    transform: scale(1.2);
+    transition: all 3s;
+}
+
+.overflow-img-home {
+    width: 1200px;
+	height: 725px;
+	overflow: hidden;
+}
+
+/*******************************/
+/*      DIV de títulos
+/*******************************/
+
+.div-titles-home {
+    position: absolute;
+    top: 127px;
+    width: 344px;
+    height: 420px;
+
+    color: #EFEFEF;
+    background-color: black;
+
+    font-family: 'Lato';
+    font-style: normal;
+    letter-spacing: 0.1em;
+
+    /*border: 1px solid white;*/
+}
+
+/*******************************/
+/*   Slider de DIV de títulos
+/*******************************/
+
+.slider-home {
+    left: 25px;
+    animation-name: slider-home;
+    animation-duration: 7s;
+    animation-delay: -6s;
+    animation-direction: reverse;
+}
+
+@keyframes slider-home {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-1008px, 0);
+    }
+    100% {
+        transform: translate(-2160px, 0);
+    }
+}
+
+/*******************************/
+/*      MELENA DE LEÓN
+/*******************************/
+
+.h1-title-1-home {
+    width: 355px;
+    height: 160px;
+    bottom: 260px;
+
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 77px;
+    background-color: inherit;
+}
+
+/*******************************/
+/*      TU ALIADO IDEAL
+/*******************************/
+
+.h1-title-2-home {
+    width: 307px;
+    height: 254px;
+    bottom: 0px;
+
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    background-color: inherit;
+}
