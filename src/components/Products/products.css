@@ -1,0 +1,40 @@
+#productos {
+    width: 100%;
+    height: 836px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gris);
+}
+
+.titleProducts {
+    color: var(--azul);
+    margin-bottom: 85px;
+}
+
+.bodyTypoProducts  {
+    color: var(--azul);
+}
+
+.primaryButton {
+    color: var(--gris);
+    background-color: var(--azul);
+    border: none;
+    border-radius: 4px;
+    height: 52px;
+    width: 200px !important;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primaryButton:hover {
+    background-color: #0E75A0; 
+    color: var(--gris);
+}
+
+.imgProduct {
+    width: 100%;
+    max-width: 457px;
+}
