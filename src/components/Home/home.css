@@ -1,14 +1,12 @@
 
 .section-home {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
 .div-group-home {
     position: relative;
-    background-color: inherit;
 }
 
 /*******************************/
@@ -16,6 +14,7 @@
 /*******************************/
 
 .zoom-img-home .img-home {
+    position: absolute;
     transition: all 3s;
 }
 
@@ -25,7 +24,7 @@
 }
 
 .overflow-img-home {
-    width: 1200px;
+    width: 1320px;
 	height: 725px;
 	overflow: hidden;
 }
@@ -41,7 +40,7 @@
     height: 420px;
 
     color: #EFEFEF;
-    background-color: black;
+    background: black;
 
     font-family: 'Lato';
     font-style: normal;

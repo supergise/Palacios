@@ -1,0 +1,37 @@
+
+/*******************************/
+/*     PREGUNTAS FRECUENTES
+/*******************************/
+
+.section-faq {
+    display:inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #803E87, #803E87), #D9D9D9;
+    width: 1280px;
+    height: 837px;
+}
+
+.title-faq {
+    position: absolute;
+    top: 163px;
+    text-align: center;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+
+    color: #EFEFEF;
+    background: linear-gradient(0deg, #803E87, #803E87), #D9D9D9;
+    border: 1px solid white;
+}
+
+.accordion-faq {
+    position: absolute;
+    top: 339px;
+    border: 1px solid black;
+}
