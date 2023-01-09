@@ -1,12 +1,13 @@
 import React from 'react';
+import Products from '../Products/Products';
+import Benefits from '../Benefits/Benefits';
 import './main.css';
 
 const Main = () => {
     return (
         <main>
-            <section className='hola'>
-                <h2>Hola queridos honguitos</h2>
-            </section>
+            <Products />
+            <Benefits />
         </main>
     );
 };

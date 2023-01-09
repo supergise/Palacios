@@ -1,12 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap'); /* importar fuente  */
+:root {
+    --azul: #085373;
+    --gris: #EFEFEF;
+    --violeta: #702578;
+    --negro: #000000;
+
+}
 
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background-color: rgb(216, 214, 214);
 }
 
 body {
-    font-family: 'Nunito', sans-serif; /* CAMBIAR fuente   */
+    font-family: 'Lato';
+}
+
+.h1Regular {
+    font-size: 70px;
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+
+.h1Light { 
+    font-size: 64px;
+    letter-spacing: 10px;
+    font-weight: 300;
+}
+
+.h2Regular {
+    font-size: 32px;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+.h3Semibold {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: var(--azul);
+}
+
+.subtitleMedium {
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.subtitleMedium2 {
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: var(--azul);
+}
+
+.bodyTypo {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.labelRegular {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.botonesTypo {
+    font-size: 18px !important;
+    letter-spacing: 1px;
+    font-weight: 400 !important;
 }
