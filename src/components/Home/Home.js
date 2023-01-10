@@ -4,7 +4,9 @@ import homeImg from '../../assets/img/default_home.png';
 
 const Home = () => {
     return (
-        <section className='section-home zoom-img-home overflow-img-home'>
+        <section id='inicio'
+            className='section-home zoom-img-home overflow-img-home'
+        >
             <div className='div-group-home'>
                 <img
                     src={homeImg}

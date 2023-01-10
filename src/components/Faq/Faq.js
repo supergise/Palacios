@@ -5,7 +5,7 @@ import './faq.css';
 
 const Faq = () => {
     return (
-        <section className='section-faq'>
+        <section id='preguntas' className='section-faq'>
 
             <div className='container'>
 
@@ -16,7 +16,6 @@ const Faq = () => {
                 </div>
 
                 <div className='row accordion-faq'>
-                    <div className='flush'>
                         <Accordion
                             defaultActiveKey='0'
                             alwaysOpen='true'
@@ -58,7 +57,6 @@ const Faq = () => {
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
-                    </div>
                 </div>
             </div>
 

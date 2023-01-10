@@ -4,13 +4,13 @@
 /*******************************/
 
 .section-faq {
-    display:inline-block;
+    display: inline-block;
     position: relative;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, #803E87, #803E87), #D9D9D9;
+    background: var(--violeta);
     width: 1280px;
-    height: 837px;
+    height: 1400px;
 }
 
 .title-faq {
@@ -25,13 +25,58 @@
     line-height: 84px;
     letter-spacing: 0.1em;
 
-    color: #EFEFEF;
-    background: linear-gradient(0deg, #803E87, #803E87), #D9D9D9;
+    color: var(--gris);
+    background: var(--violeta);
     border: 1px solid white;
 }
 
 .accordion-faq {
     position: absolute;
     top: 339px;
+    padding: 0px 191px;
+    font-family: 'Lato';
     border: 1px solid black;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+    border: 0px !important;
+}
+
+.accordion-button {
+
+    min-width: 910px;
+    font-family: 'Lato' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+
+    width: 898px;
+    height: 53px;
+
+    letter-spacing: 0.0015em !important;
+
+    color: var(--negro) !important;
+    background: var(--gris) !important;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.accordion-body {
+
+    font-family: 'Lato' !important;
+    font-style: normal !important;
+    font-weight: 200 !important;
+    font-size: 20px !important;
+    line-height: 25px !important;
+
+    color: white !important;
+    background: var(--negro) !important;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
