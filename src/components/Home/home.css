@@ -1,4 +1,8 @@
 
+/*******************************/
+/*           Home
+/*******************************/
+
 .section-home {
     display: inline-block;
     justify-content: center;
@@ -10,7 +14,7 @@
 }
 
 /*******************************/
-/*         ZOOM !!!
+/*       Zoom de imagen
 /*******************************/
 
 .zoom-img-home .img-home {

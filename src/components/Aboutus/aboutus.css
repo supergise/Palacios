@@ -1,0 +1,102 @@
+
+/*******************************/
+/*         NOSOTROS
+/*******************************/
+
+.section-aboutus {
+    display: inline-flex;
+    position: relative;
+
+    width: 1280px !important;
+    height: 832px !important;
+    
+    background: var(--gris);
+    color: var(--azul);
+    font-family: inherit;
+}
+
+.div-aboutus {
+    padding: 136px 100px 64px 100px !important;
+    border: 1px solid black;
+}
+
+/*******************************/
+/*    Imágenes de NOSOTROS
+/*******************************/
+
+.div-images-aboutus {
+    width: 623px !important;
+    height: 627px !important;
+    margin-right: 54px !important;
+    overflow: hidden !important;
+
+    border: 1px solid black;
+}
+
+/*******************************/
+.width-img-aboutus {
+   width: 150px !important;
+ }
+
+.height-1-img-aboutus {
+   height: 200px;
+ }
+
+.height-2-img-aboutus {
+   height: 100px;
+ }
+
+/*******************************/
+.img-1-aboutus {
+    padding: 5px;
+    order: 1;
+}
+
+.img-1-aboutus:hover {
+    transform: scale(1.2) translateX(1em);
+    transition: all 3s;
+    padding: 5px;
+}
+
+.img-1-aboutus:hover ~ .img-2-aboutus {
+    transform: scale(1.2) translateX(1em);
+    transition: all 3s;
+    padding: 5px;
+}
+
+/*******************************/
+.img-2-aboutus {
+    padding: 5px;
+    order: 2;
+}
+
+.img-2-aboutus:hover {
+    transform: scale(1.2) translateX(-1em);
+    transition: all 3s;
+}
+
+.img-2-aboutus:hover ~ .img-1-aboutus {
+    transform: scale(1.2) translateX(-1em);
+    transition: all 3s;
+    order: -1 !important;
+}
+
+/*******************************/
+.img-3-aboutus {
+    padding: 5px;
+}
+
+/*******************************/
+.img-4-aboutus {
+    padding: 5px;
+}
+
+/*******************************/
+/*  Título y texto de NOSOTROS
+/*******************************/
+
+.div-text-aboutus {
+    width: 349px !important;
+    height: 627px !important;
+    border: 1px solid black;
+}
