@@ -1,9 +1,10 @@
 :root {
     --azul: #085373;
+    --cyan: #0E75A0;
+    --celeste: #7197A8;
     --gris: #EFEFEF;
     --violeta: #702578;
     --negro: #000000;
-
 }
 
 * {
@@ -12,61 +13,183 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Lato';
+html {
+    scroll-padding-top: 112px;
+    background-color: var(--gris);
 }
+
+body {
+    font-family: 'Lato' !important;
+}
+
+
 
 .h1Regular {
     font-size: 70px;
     letter-spacing: 8px;
     font-weight: 400;
+    line-height: 84px;
 }
 
 .h1Light { 
     font-size: 64px;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     font-weight: 300;
+    line-height: 76px;
 }
 
 .h2Regular {
     font-size: 32px;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     font-weight: 400;
+    line-height: 38px;
 }
 
 .h3Semibold {
     font-size: 25px;
     letter-spacing: 1px;
-    font-weight: 400;
-    color: var(--azul);
+    font-weight: 500;
+    line-height: 30px;
 }
 
 .subtitleMedium {
     font-size: 24px;
     letter-spacing: 1px;
     font-weight: 400;
+    line-height: 28px;
 }
 
 .subtitleMedium2 {
     font-size: 28px;
     letter-spacing: 3px;
-    font-weight: 300;
-    color: var(--azul);
+    font-weight: 400;
+    line-height: 33px;
 }
 
 .bodyTypo {
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: 400;
+    line-height: 24px;
 }
 
 .labelRegular {
     font-size: 12px;
     font-weight: 400;
+    line-height: 14px;
+}
+
+.bodyTypoBlue {
+    color: var(--azul);
 }
 
 .botonesTypo {
     font-size: 18px !important;
     letter-spacing: 1px;
     font-weight: 400 !important;
+    line-height: 20px;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+
+    .h1Regular {
+        font-size: 60px;
+        letter-spacing: 8px;
+        line-height: 60px;
+    }
+
+    .h2Regular {
+        font-size: 28px;
+        letter-spacing: 4px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .titleProducts,
+    .titleBenefits {
+        margin-bottom: 30px;
+    }
+
+    #productos {
+        height: 800px;
+    }
+
+    #nosotros  {
+        height: 1200px;
+    }
+
+    #beneficios {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .h1Regular {
+        font-size: 44px;
+        letter-spacing: 6px;
+        line-height: 70px;
+    }
+
+    .titleProducts,
+    .titleBenefits {
+        margin-bottom: 30px;
+    }
+
+    #productos,
+    #nosotros  {
+        height: 1200px;
+    }
+
+    #beneficios {
+        height: 1100px;
+    }
+
+    #contacto {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .h1Regular {
+        font-size: 40px;
+        letter-spacing: 4px;
+        line-height: 60px;
+    }
+
+    .h2Regular {
+        font-size: 24px;
+        letter-spacing: 4px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .subtitleMedium2 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .titleProducts,
+    .titleBenefits {
+        margin-bottom: 20px;
+    }
+
+    .gallery {
+        --s: 200px;
+    }
+
+    #productos {
+        height: 1000px;
+    }
+
+    #beneficios {
+        height: 900px;
+    }
+
+    #nosotros {
+        height: 1100px;
+    }
 }

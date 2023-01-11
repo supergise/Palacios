@@ -1,0 +1,10 @@
+.iconWathsApp {
+    width: 60px;
+}
+
+.fixed-position {
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    z-index: 1030;
+}

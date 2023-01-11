@@ -1,4 +1,5 @@
 import React from 'react';
+import 'animate.css';
 import './products.css';
 
 const Products = () => {
@@ -10,10 +11,10 @@ const Products = () => {
                     
                     <div className='col-12 col-lg-6 ps-5 pe-5 align-self-center'>
                         <div className='row'>
-                            <h2 className='subtitleMedium2'>PROBÁ NUESTRAS CÁPSULAS</h2>
+                            <h2 className='subtitleMedium2 pb-5 text-center animate__animated animate__pulse bodyTypoBlue'>PROBÁ NUESTRAS CÁPSULAS</h2>
                         </div>
 
-                        <div className='row imgProduct'>
+                        <div className='row imgProduct pb-5'>
                             <img src='./assets/img/6.png' alt='melena de león en cápsulas'/>
                         </div>
                     </div>
@@ -22,10 +23,10 @@ const Products = () => {
                     <div className='col-12 col-lg-6 align-self-center'>
                         <div className='col-12'>
                             <div className='row'>
-                                <h2 className='h1Regular titleProducts bodyTypoProducts'>DE LA NATURALEZA A TU MESA</h2>
+                                <h2 className='h1Regular titleProducts bodyTypoBlue'>DE LA NATURALEZA A TU MESA</h2>
                             </div>
 
-                            <div className='row bodyTypo bodyTypoProducts'>
+                            <div className='row bodyTypo bodyTypoBlue'>
                                 <p>
                                 Para aprovechar todas sus propiedades y  beneficios es importante generar el hábito de consumirlos diariamente. 
                                 </p>
@@ -39,12 +40,13 @@ const Products = () => {
                 </div>
 
                 <div className='row'>
-                    <div className="col-6 offset-6 d-flex justify-content-center align-items-center pt-5">
+                    <div className="col-6 offset-md-6 d-flex justify-content-md-center align-items-center pt-5 pb-5">
                     <a href='#beneficios' className='primaryButton botonesTypo'>Conoce más</a>
                     </div>
                 </div>
 
             </div>
+
         </section>
     );
 };

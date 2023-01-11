@@ -6,6 +6,7 @@ import './navBar.css';
 
 function NavBar() {
     return (
+        <>
             <Navbar bg="light" expand="lg" className='fixed-top'>
             <Container fluid> 
                 <Navbar.Brand href="#inicio">      
@@ -33,6 +34,8 @@ function NavBar() {
                 
             </Container>
             </Navbar>
+
+        </>
     );
 }   
 
