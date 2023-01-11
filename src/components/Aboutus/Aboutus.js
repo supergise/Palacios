@@ -46,9 +46,9 @@ const Aboutus = () => {
 
             </div>
 
-                <div className='col div-text-aboutus'>
-                    <h2 className='h2Regular'>NOSOTROS</h2>
-                    <p>
+                <div className='col'>
+                    <h2 className='h2Regular h2-aboutus'>NOSOTROS</h2>
+                    <p className='p-aboutus'>
                         Nos encontramos en la provincia de Mendoza, Argentina.<br/><br/>
                         Cosechamos la Melena de León en las condiciones óptimas para su crecimiento y lo monitoreamos con el ojo experto de nuestro micólogo, para garantizar un producto de calidad.<br/><br/>
                         Una vez cosechado, este hongo es secado y molido en nuestro laboratorio para luego introducirlo en las cápsulas de gelatina sin sabor. <br/><br/>

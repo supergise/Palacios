@@ -95,8 +95,26 @@
 /*  Título y texto de NOSOTROS
 /*******************************/
 
-.div-text-aboutus {
-    width: 349px !important;
-    height: 627px !important;
-    border: 1px solid black;
+.h2-aboutus {
+    height: 71px;
+    /* H2 regular */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    /* AZUL */
+    color: var(--azul);
+}
+
+.p-aboutus {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    /* AZUL */
+    color: var(--azul);
 }
