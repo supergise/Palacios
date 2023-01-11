@@ -17,7 +17,6 @@
 
 .div-aboutus {
     padding: 136px 100px 64px 100px !important;
-    border: 1px solid black;
 }
 
 /*******************************/
@@ -29,8 +28,6 @@
     height: 627px !important;
     margin-right: 54px !important;
     overflow: hidden !important;
-
-    border: 1px solid black;
 }
 
 /*******************************/
