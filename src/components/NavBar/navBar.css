@@ -9,7 +9,7 @@
 
 .navbar-nav {
     --bs-nav-link-color: var(--negro) !important;
-    --bs-nav-link-hover-color: var(--azul) !important;    
+    --bs-nav-link-hover-color: var(--cyan) !important;    
 }
 
 .navbar-nav .nav-link.active {
@@ -22,6 +22,14 @@
 
 .navbar > .container-fluid {
     background-color: var(--gris) !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;    
 }
 
 .bg-light {

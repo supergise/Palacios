@@ -8,12 +8,7 @@
 }
 
 .titleProducts {
-    color: var(--azul);
     margin-bottom: 85px;
-}
-
-.bodyTypoProducts  {
-    color: var(--azul);
 }
 
 .primaryButton {
@@ -30,11 +25,11 @@
 }
 
 .primaryButton:hover {
-    background-color: #0E75A0; 
+    background-color:var(--cyan); 
     color: var(--gris);
 }
 
 .imgProduct {
     width: 100%;
-    max-width: 457px;
+    justify-content: center;
 }
