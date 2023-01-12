@@ -3,7 +3,10 @@ import './about.css';
 
 const About = () => {
     return (
-        <section id='nosotros' className='container-fluid d-flex align-items-center justify-content-center'>
+        <section 
+            id='nosotros' 
+            className='container-fluid d-flex align-items-center justify-content-center'>
+
             <div className="row">
                 <div className="col-12 col-xl-7 pb-lg-5 pb-sm-3">
                     <div className="centering">
@@ -19,7 +22,7 @@ const About = () => {
                 <div className="col-12 col-xl-5">
                     <div className="row">
                         <p>
-                            <h2 className='h2Regular bodyTypoBlue ps-lg-5 pt-md-4'>NOSOTROS</h2>
+                            <h2 className='h2Regular bodyTypoBlue ps-lg-5 pt-md-4 pt-lg-0'>NOSOTROS</h2>
                         </p>
                     </div>
 
@@ -39,12 +42,9 @@ const About = () => {
                         <p>
                             Como parte de nuestra misión es concientizar y dar a conocer los beneficios de la Melena de León en la salud y bienestar, vamos a destinar el 10% de las ventas a labotorios nacionales para más investigación y desarrollo.
                         </p>
-
                     </div>
-
                 </div>
             </div>
-
         </section>
     );
 };

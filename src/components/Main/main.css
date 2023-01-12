@@ -1,3 +1,9 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .box {
     height: 112px;
     background-color:var(--gris);

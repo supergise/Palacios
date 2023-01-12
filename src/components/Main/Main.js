@@ -3,6 +3,7 @@ import Home from '../Home/Home';
 import Products from '../Products/Products';
 import Benefits from '../Benefits/Benefits';
 import About from '../About/About';
+import Faq from '../Faq/Faq';
 import './main.css';
 
 const Main = () => {
@@ -13,6 +14,7 @@ const Main = () => {
             <Products />
             <Benefits />
             <About />
+            <Faq />
         </main>
     );
 };

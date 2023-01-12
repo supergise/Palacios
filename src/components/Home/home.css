@@ -1,0 +1,30 @@
+.div-group-home {
+    position: relative;
+}
+
+.div-titles-home {
+    position: absolute;
+    top: 25%;
+}
+
+ /* Slider de DIV de títulos */
+
+.slider-home {
+    left: 100px;
+    animation-name: slider-home;
+    animation-duration: 7s;
+    animation-delay: -6s;
+    animation-direction: reverse;
+}
+
+@keyframes slider-home {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-1008px, 0);
+    }
+    100% {
+        transform: translate(-2160px, 0);
+    }
+}
