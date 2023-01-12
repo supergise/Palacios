@@ -8,7 +8,6 @@ import './main.css';
 
 const Main = () => {
     return (
-
         <main>
             <div className='box'></div>
             <Home />

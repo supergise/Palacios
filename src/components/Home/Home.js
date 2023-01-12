@@ -1,25 +1,29 @@
 import React from 'react';
 import './home.css';
-import homeImg from '../../assets/img/default_home.png';
 
 const Home = () => {
     return (
-        <section id='inicio'
-            className='section-home zoom-img-home overflow-img-home'
+        <section 
+            id='inicio'
+            className='zoom-img overflow-img'
         >
             <div className='div-group-home'>
                 <img
-                    src={homeImg}
-                    className='img-home'
-                    alt={'xxx'}
-                />
-                <div className='div-titles-home slider-home'>
-                    <h1 className='h1-title-1-home'>
-                        MELENA DE LEÓN
+                    className='img-fluid img' 
+                    src='./assets/img/1.png' 
+                    alt='melena de león en estado natural, en un bosque'/>
+
+                <div className='div-titles-home slider-home h1Light bodyTypoGrey'>
+                    <h1 className='h1Light pb-2'>
+                        MELENA <br />
+                        DE LEÓN
                     </h1>
-                    <h1 className='h1-title-2-home'>
-                        TU ALIADO IDEAL
-                    </h1>
+                
+                    <h2 className='d-none d-md-flex h1Regular bodyTypoGrey'>
+                        TU <br />
+                        ALIADO <br />
+                        IDEAL <br />
+                    </h2>
                 </div>
             </div>
         </section>

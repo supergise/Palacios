@@ -3,7 +3,7 @@
     --cyan: #0E75A0;
     --celeste: #7197A8;
     --gris: #EFEFEF;
-    --violeta: #702578;
+    --violeta: #803E87;
     --negro: #000000;
 }
 
@@ -77,10 +77,6 @@ body {
     line-height: 14px;
 }
 
-.bodyTypoBlue {
-    color: var(--azul);
-}
-
 .botonesTypo {
     font-size: 18px !important;
     letter-spacing: 1px;
@@ -88,12 +84,50 @@ body {
     line-height: 20px;
 }
 
+.bodyTypoBlue {
+    color: var(--azul);
+}
+
+.bodyTypoGrey {
+    color: var(--gris);
+}
+
+.zoom-img .img {
+    width: 100%;
+	height: 100%;
+    transition: all 2s;
+}
+
+.img:hover {
+    transform: scale(1.2);
+    transition: all 3s;
+}
+
+.corner {
+    transform-origin: bottom right;
+}
+
+.overflow-img {
+	overflow: hidden;
+}
+
 /* media queries */
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1401px) {
+    #productos {
+    height: 1200px;
+    }
+}
 
+@media screen and (max-width: 1400px) {
+    #productos {
+    height: 900px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     .h1Regular {
-        font-size: 60px;
+        font-size: 56px;
         letter-spacing: 8px;
         line-height: 60px;
     }
@@ -111,7 +145,7 @@ body {
     }
 
     #productos {
-        height: 800px;
+        height: 836px;
     }
 
     #nosotros  {
@@ -125,7 +159,7 @@ body {
 
 @media screen and (max-width: 992px) {
     .h1Regular {
-        font-size: 44px;
+        font-size: 40px;
         letter-spacing: 6px;
         line-height: 70px;
     }
@@ -147,6 +181,15 @@ body {
     #contacto {
         height: 400px;
     }
+
+    .accordion {
+        padding: 50px 70px 156px 70px;
+    }
+
+    .slider-home {
+        left: 50px;
+        top: 10%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -154,6 +197,13 @@ body {
         font-size: 40px;
         letter-spacing: 4px;
         line-height: 60px;
+    }
+
+    .h1Light {
+        font-size: 40px;
+        letter-spacing: 8px;
+        font-weight: 300;
+        line-height: 56px;
     }
 
     .h2Regular {
@@ -178,7 +228,7 @@ body {
     }
 
     #productos {
-        height: 1000px;
+        height: 1100px;
     }
 
     #beneficios {
@@ -187,5 +237,14 @@ body {
 
     #nosotros {
         height: 1100px;
+    }
+
+    .accordion {
+        padding: 50px 0px 156px 0px;
+    }
+
+    .slider-home {
+        left: 30px;
+        top: 60%;
     }
 }

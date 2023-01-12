@@ -1,4 +1,3 @@
-
 .main {
     display: flex;
     justify-content: center;
@@ -8,5 +7,4 @@
 .box {
     height: 112px;
     background-color:var(--gris);
-
 }

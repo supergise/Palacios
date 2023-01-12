@@ -1,72 +1,37 @@
-
-/*******************************/
-/*     PREGUNTAS FRECUENTES
-/*******************************/
-
-.section-faq {
-    display: inline-block;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    background: var(--violeta);
-    width: 1280px !important;
-    height: 1400px;
-}
-
-.title-faq {
-    position: absolute;
-    top: 10%;
-    text-align: center;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 84px;
-    letter-spacing: 0.1em;
-    color: var(--gris);
-    background: var(--violeta);
-}
-
-.accordion-faq {
-    position: absolute;
-    top: 25%;
+#preguntas {
     width: 100%;
-    padding: 0px 15%;
-    font-family: 'Lato';
+    height: auto;
+    background-color:var(--violeta)
+}
+
+.accordion {
+    padding: 50px 120px 156px 120px;
 }
 
 .accordion-item {
-    margin-bottom: 3%;
-    width: 100% !important;
+    margin-bottom: 2%;
     border: 0px !important;
 }
 
 .accordion-button {
-    font-family: 'Lato' !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
     font-size: 24px !important;
-    line-height: 29px !important;
-    height: 60px;
-    letter-spacing: 0.0015em !important;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 28px;
     color: var(--negro) !important;
     background: var(--gris) !important;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
+    padding: 10px 20px !important;
+} 
 
 .accordion-body {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+    font-size: 20px !important;
+    letter-spacing: 1px;
+    font-weight: 300;
     line-height: 24px;
-    letter-spacing: 0.005em;
     color: white;
     background: var(--negro) !important;
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-    z-index: 1;
+}
+
+.titleFaqs {
+    padding: 156px 0px 30px 0px;
 }

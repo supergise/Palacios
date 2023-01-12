@@ -8,7 +8,9 @@ const Fab = () => {
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className='iconWathsApp fixed-position'>
-                    <img src="./assets/img/whatsapp2.png" alt="botón de whatsapp" />
+                    <img 
+                    src="./assets/img/whatsapp2.png" 
+                    alt="botón de whatsapp" />
                 </a>
             </section>
     );

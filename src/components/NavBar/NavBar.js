@@ -7,13 +7,16 @@ import './navBar.css';
 function NavBar() {
     return (
         <>
-            <Navbar bg="light" expand="lg" className='fixed-top'>
+            <Navbar 
+                bg="light" 
+                expand="lg" 
+                className='fixed-top'>
             <Container fluid> 
                 <Navbar.Brand href="#inicio">      
                 <img
-                src="./assets/logo.png" 
-                className="d-inline-block align-center logo"
-                alt="Spore Hills logo"
+                    src="./assets/logo.png" 
+                    className="d-inline-block align-center logo"
+                    alt="Spore Hills logo"
                 />
                 </Navbar.Brand>
 
