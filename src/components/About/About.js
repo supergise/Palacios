@@ -40,7 +40,7 @@ const About = () => {
                             Así, llega la Melena de león pura a tu organismo.
                         </p>
                         <p>
-                            Como parte de nuestra misión es concientizar y dar a conocer los beneficios de la Melena de León en la salud y bienestar, vamos a destinar el 10% de las ventas a labotorios nacionales para más investigación y desarrollo.
+                            Como parte de nuestra misión es concientizar y dar a conocer los beneficios de la Melena de León en la salud y bienestar, vamos a destinar el 10% de las ventas a laboratorios nacionales para más investigación y desarrollo.
                         </p>
                     </div>
                 </div>
