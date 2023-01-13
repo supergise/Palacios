@@ -18,19 +18,19 @@ const Faq = () => {
                 <Accordion.Item eventKey='0'>
                     <Accordion.Header>¿Quiénes pueden tomarla y quiénes no se recomienda? </Accordion.Header>
                     <Accordion.Body>
-                        Pueden tomarlas adolecentes y adultos. No se recomienda que lo consuman: niños, las mujeres embarazas, personas que hayan desarrallodo algun tipo de alergia hacia los hongos o que estén consumiendo algun tipo de medicación.
+                        Pueden tomarlas adolescentes y adultos. No se recomienda que lo consuman: niños, las mujeres embarazadas, personas que hayan desarrallodo algún tipo de alergia hacia los hongos o que estén consumiendo algún tipo de medicación.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
                     <Accordion.Header>¿Cuáles son las contraindicaciones de la melena de león?</Accordion.Header>
                     <Accordion.Body>
-                        Hasta el momento no se han encontrado contraindicaciones sobre la melena de león, de todas formas se siguen desarralloando estudios para implementarlo de la forma más eficiente y de forma no perjudicial.
+                        Hasta el momento no se han encontrado contraindicaciones sobre la melena de león, de todas formas se siguen desarroloando estudios para implementarlo de la forma más eficiente y de forma no perjudicial.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
                     <Accordion.Header> ¿Cómo y cuándo tomar las cápsulas?</Accordion.Header>
                     <Accordion.Body>
-                        Se recomienda tomar dos capsulas por día en la mañana o una por la mañana y otra por la noche.
+                        Se recomienda tomar dos cápsulas por día en la mañana o una por la mañana y otra por la noche.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3'>

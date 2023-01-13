@@ -26,7 +26,7 @@ const Footer = () => {
                         className='icon' 
                         src="./assets/icons/gmail.png" 
                         alt="ícono de mail" />
-                    <span className='botonesTypo footerTypo'>sporehills@hotmail.com</span>
+                    <span className='botonesTypo footerTypo'>admin@sporehills.com</span>
                 </div>
 
                 <div className="col-12 col-lg-2 pb-2">
